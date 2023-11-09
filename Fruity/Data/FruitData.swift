@@ -11,8 +11,8 @@ import SwiftUI
 
 let fruitsData: [Fruit] = [
     Fruit(
-      title: "Apple",
-      headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
+      title: "Ябълка",
+      headline: "Ябълките са един от най-популярните и изключително здравословни плодове с добра причина.",
       image: "apple",
       gradientColor: "autumn",
       description: """
@@ -35,8 +35,8 @@ let fruitsData: [Fruit] = [
       nutrition: ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
-      title: "Pear",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      title: "Круша",
+      headline: "Сладки плодове с форма на камбанка, които са се наслаждавали от древни времена. Могат да се консумират хрупкави или меки.",
       image: "pear",
       gradientColor: "autumn",
       description: """
@@ -69,6 +69,38 @@ let fruitsData: [Fruit] = [
         The Bradford pear (Pyrus calleryana 'Bradford') in particular has become widespread in North America, and is used only as an ornamental tree, as well as a blight-resistant rootstock for Pyrus communis fruit orchards. The Willow-leaved pear (Pyrus salicifolia) is grown for its attractive, slender, densely silvery-hairy leaves.
         """,
       nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
+      title: "Слива",
+      headline: "Сливите са много питателен плод. Отличен източник на витамини, минерали, фибри и антиоксиданти.",
+      image: "plum",
+      gradientColor: "autumn",
+      description: """
+        A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
+
+        Mature plum fruit may have a dusty-white waxy coating that gives them a glaucous appearance. This is an epicuticular wax coating and is known as "wax bloom". Dried plum fruits are called "dried plums" or prunes, although, in many countries, prunes are a distinct type of dried plum having a wrinkled appearance (Li hing mui for instance).
+
+        DESCRIPTION
+
+        Plums are a diverse group of species. The commercially important plum trees are medium-sized, usually pruned to 5–6 metres height. The tree is of medium hardiness. Without pruning, the trees can reach 12 metres in height and spread across 10 metres. They blossom in different months in different parts of the world; for example, in about January in Taiwan and early April in the United Kingdom.
+
+        Fruits are usually of medium size, between 2 and 7 centimetres in diameter, globose to oval. The flesh is firm and juicy. The fruit's peel is smooth, with a natural waxy surface that adheres to the flesh. The plum is a drupe, meaning its fleshy fruit surrounds a single hard seed.
+
+        CULTIVATION
+
+        When it flowers in the early spring, a plum tree will be covered in blossoms, and in a good year approximately 50% of the flowers will be pollinated and become plums. Flowering starts after 80 growing degree days.
+
+        If the weather is too dry, the plums will not develop past a certain stage, but will fall from the tree while still tiny, green buds, and if it is unseasonably wet or if the plums are not harvested as soon as they are ripe, the fruit may develop a fungal condition called brown rot. Brown rot is not toxic, and some affected areas can be cut out of the fruit, but unless the rot is caught immediately, the fruit will no longer be edible. Plum is used as a food plant by the larvae of some Lepidoptera, including November moth, willow beauty and short-cloaked moth.
+
+        The taste of the plum fruit ranges from sweet to tart; the skin itself may be particularly tart. It is juicy and can be eaten fresh or used in jam-making or other recipes. Plum juice can be fermented into plum wine. In central England, a cider-like alcoholic beverage known as plum jerkum is made from plums. Dried, salted plums are used as a snack, sometimes known as saladito or salao.
+
+        Various flavors of dried plum are available at Chinese grocers and specialty stores worldwide. They tend to be much drier than the standard prune. Cream, ginseng, spicy, and salty are among the common varieties. Licorice is generally used to intensify the flavor of these plums and is used to make salty plum drinks and toppings for shaved ice or baobing. Pickled plums are another type of preserve available in Asia and international specialty stores.
+
+        The Japanese variety, called umeboshi, is often used for rice balls, called onigiri or omusubi. The ume, from which umeboshi are made, is more closely related, however, to the apricot than to the plum. In the Balkans, plum is converted into an alcoholic drink named slivovitz (plum brandy) (Serbian: šljivovica).
+
+        A large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică.
+        """,
+      nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
       title: "Pomegranate",
@@ -193,38 +225,6 @@ let fruitsData: [Fruit] = [
         The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods.
         """,
       nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
-    ),
-    Fruit(
-      title: "Plum",
-      headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
-      image: "plum",
-      gradientColor: "autumn",
-      description: """
-        A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
-
-        Mature plum fruit may have a dusty-white waxy coating that gives them a glaucous appearance. This is an epicuticular wax coating and is known as "wax bloom". Dried plum fruits are called "dried plums" or prunes, although, in many countries, prunes are a distinct type of dried plum having a wrinkled appearance (Li hing mui for instance).
-
-        DESCRIPTION
-
-        Plums are a diverse group of species. The commercially important plum trees are medium-sized, usually pruned to 5–6 metres height. The tree is of medium hardiness. Without pruning, the trees can reach 12 metres in height and spread across 10 metres. They blossom in different months in different parts of the world; for example, in about January in Taiwan and early April in the United Kingdom.
-
-        Fruits are usually of medium size, between 2 and 7 centimetres in diameter, globose to oval. The flesh is firm and juicy. The fruit's peel is smooth, with a natural waxy surface that adheres to the flesh. The plum is a drupe, meaning its fleshy fruit surrounds a single hard seed.
-
-        CULTIVATION
-
-        When it flowers in the early spring, a plum tree will be covered in blossoms, and in a good year approximately 50% of the flowers will be pollinated and become plums. Flowering starts after 80 growing degree days.
-
-        If the weather is too dry, the plums will not develop past a certain stage, but will fall from the tree while still tiny, green buds, and if it is unseasonably wet or if the plums are not harvested as soon as they are ripe, the fruit may develop a fungal condition called brown rot. Brown rot is not toxic, and some affected areas can be cut out of the fruit, but unless the rot is caught immediately, the fruit will no longer be edible. Plum is used as a food plant by the larvae of some Lepidoptera, including November moth, willow beauty and short-cloaked moth.
-
-        The taste of the plum fruit ranges from sweet to tart; the skin itself may be particularly tart. It is juicy and can be eaten fresh or used in jam-making or other recipes. Plum juice can be fermented into plum wine. In central England, a cider-like alcoholic beverage known as plum jerkum is made from plums. Dried, salted plums are used as a snack, sometimes known as saladito or salao.
-
-        Various flavors of dried plum are available at Chinese grocers and specialty stores worldwide. They tend to be much drier than the standard prune. Cream, ginseng, spicy, and salty are among the common varieties. Licorice is generally used to intensify the flavor of these plums and is used to make salty plum drinks and toppings for shaved ice or baobing. Pickled plums are another type of preserve available in Asia and international specialty stores.
-
-        The Japanese variety, called umeboshi, is often used for rice balls, called onigiri or omusubi. The ume, from which umeboshi are made, is more closely related, however, to the apricot than to the plum. In the Balkans, plum is converted into an alcoholic drink named slivovitz (plum brandy) (Serbian: šljivovica).
-
-        A large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică.
-        """,
-      nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
       title: "Lime",
