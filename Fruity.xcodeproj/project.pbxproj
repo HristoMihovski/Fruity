@@ -16,6 +16,7 @@
 		325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC032AF9397C002D8DAB /* FruitCardView.swift */; };
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
+		32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C397C72AFD4C5B00E89208 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		325EEC032AF9397C002D8DAB /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		32C397C72AFD4C5B00E89208 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				325EEC032AF9397C002D8DAB /* FruitCardView.swift */,
 				325EEC052AF939A4002D8DAB /* StartButtonView.swift */,
+				32C397C72AFD4C5B00E89208 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				325EEBD52AF9370D002D8DAB /* ContentView.swift in Sources */,
 				325EEBD32AF9370D002D8DAB /* FruityApp.swift in Sources */,
+				32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */,
 				325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */,
 				325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */,
 				325EEC012AF938B5002D8DAB /* FruitModel.swift in Sources */,
