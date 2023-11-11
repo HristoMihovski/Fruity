@@ -103,8 +103,8 @@ let fruitsData: [Fruit] = [
       nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
-      title: "Pomegranate",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      title: "Нар",
+      headline: "Сладки плодове с форма на камбанка, които са се наслаждавали от древни времена. Могат да се консумират хрупкави или меки.",
       image: "pomegranate",
       gradientColor: "autumn",
       description: """

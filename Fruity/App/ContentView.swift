@@ -14,10 +14,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruits) { item in
+                ForEach(fruits[0...3]) { item in
                     FruitRowView(fruit: item)
+                        .padding(.vertical, 4)
                 }
             }
+            .navigationTitle("Fruits")
         }
     }
 }
