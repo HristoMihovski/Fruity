@@ -16,21 +16,13 @@ let fruitsData: [Fruit] = [
       image: "apple",
       gradientColor: "autumn",
       description: """
-        An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian tradition.
-
-        DESCRIPTION
-
-        The apple is a deciduous tree, generally standing 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild. When cultivated, the size, shape and branch density are determined by rootstock selection and trimming method. The leaves are alternately arranged dark green-colored simple ovals with serrated margins and slightly downy undersides.
-
-        Blossoms are produced in spring simultaneously with the budding of the leaves and are produced on spurs and some long shoots. The 3 to 4 cm (1 to 1 1⁄2 in) flowers are white with a pink tinge that gradually fades, five petaled, with an inflorescence consisting of a cyme with 4–6 flowers. The central flower of the inflorescence is called the "king bloom"; it opens first and can develop a larger fruit.
-
-        CULTIVATION
-
-        There are more than 7,500 known cultivars of apples.[44] Cultivars vary in their yield and the ultimate size of the tree, even when grown on the same rootstock.[45] Different cultivars are available for temperate and subtropical climates. The UK's National Fruit Collection, which is the responsibility of the Department of Environment, Food, and Rural Affairs, includes a collection of over 2,000 cultivars of apple tree in Kent.
-
-        The UK's national fruit collection database contains much information on the characteristics and origin of many apples, including alternative names for what is essentially the same "genetic" apple cultivar. Most of these cultivars are bred for eating fresh (dessert apples), though some are cultivated specifically for cooking (cooking apples) or producing cider. Cider apples are typically too tart and astringent to eat fresh, but they give the beverage a rich flavor that dessert apples cannot.
-
-        Commercially popular apple cultivars are soft but crisp. Other desirable qualities in modern commercial apple breeding are a colorful skin, absence of russeting, ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor. Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following. Extremely sweet apples with barely any acid flavor are popular in Asia, especially the Indian Subcontinent.
+                Ябълките съдържат ключови хранителни вещества, включително фибри и антиоксиданти. Те могат да предложат ползи за здравето, включително понижаване на нивата на кръвната захар и благоприятно въздействие върху здравето на сърцето.  
+        
+        Карбонов Отпечатък:
+        
+        50 000 тона
+        
+        Причината да е толкова нисък ,е защото България предоставя условия за голямо пройзводство на ябълки.
         """,
       nutrition: ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
@@ -40,33 +32,14 @@ let fruitsData: [Fruit] = [
       image: "pear",
       gradientColor: "autumn",
       description: """
-        The pear (/ˈpɛər/) tree and shrub are a species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees.
-
-        The tree is medium-sized and native to coastal as well as mildly temperate regions of Europe, north Africa and Asia. Pear wood is one of the preferred materials in the manufacture of high-quality woodwind instruments and furniture.
-
-        About 3000 known varieties of pears are grown worldwide. The fruit is consumed fresh, canned, as juice, and dried.
-
-        DESCRIPTION
-
-        The pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia. It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.
-
-        The leaves are alternately arranged, simple, 2–12 centimetres (1–4 1⁄2 in) long, glossy green on some species, densely silvery-hairy in some others; leaf shape varies from broad oval to narrow lanceolate. Most pears are deciduous, but one or two species in southeast Asia are evergreen.
+        Крушите са особено богати на фолат, витамин С, мед и калий. Те също са добър източник на полифенолни антиоксиданти. Крушите са отличен източник на разтворими и неразтворими фибри, които са от съществено значение за здравето на храносмилането. Тези влакна помагат за поддържане на редовността на червата чрез омекотяване и увеличаване на обема на изпражненията.
+                
+                Карбонов отпечатък:
+                
+                65 000 тона
+                
+                Това е добра стойност на карбоновия отпечатък от препоръчителна за плодове и зеленчуци - 120 000 тона. България пройзвежда голямо количество от вкусни круши.
         
-        Most are cold-hardy, withstanding temperatures as low as −25 to −40 °C (−13 to −40 °F) in winter, except for the evergreen species, which only tolerate temperatures down to about −15 °C (5 °F).
-
-        CULTIVATION
-
-        According to Pear Bureau Northwest, about 3000 known varieties of pears are grown worldwide.[9] The pear is normally propagated by grafting a selected variety onto a rootstock, which may be of a pear variety or quince. Quince rootstocks produce smaller trees, which is often desirable in commercial orchards or domestic gardens.
-
-        For new varieties the flowers can be cross-bred to preserve or combine desirable traits. The fruit of the pear is produced on spurs, which appear on shoots more than one year old.
-
-        Three species account for the vast majority of edible fruit production, the European pear Pyrus communis subsp. communis cultivated mainly in Europe and North America, the Chinese white pear (bai li) Pyrus ×bretschneideri, and the Nashi pear Pyrus pyrifolia (also known as Asian pear or apple pear), both grown mainly in eastern Asia. There are thousands of cultivars of these three species.
-
-        A species grown in western China, P. sinkiangensis, and P. pashia, grown in southern China and south Asia, are also produced to a lesser degree.
-
-        Other species are used as rootstocks for European and Asian pears and as ornamental trees. Pear wood is close-grained and at least in the past was used as a specialized timber for fine furniture and making the blocks for woodcuts. The Manchurian or Ussurian Pear, Pyrus ussuriensis (which produces unpalatable fruit) has been crossed with Pyrus communis to breed hardier pear cultivars.
-
-        The Bradford pear (Pyrus calleryana 'Bradford') in particular has become widespread in North America, and is used only as an ornamental tree, as well as a blight-resistant rootstock for Pyrus communis fruit orchards. The Willow-leaved pear (Pyrus salicifolia) is grown for its attractive, slender, densely silvery-hairy leaves.
         """,
       nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
@@ -76,29 +49,13 @@ let fruitsData: [Fruit] = [
       image: "plum",
       gradientColor: "autumn",
       description: """
-        A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
-
-        Mature plum fruit may have a dusty-white waxy coating that gives them a glaucous appearance. This is an epicuticular wax coating and is known as "wax bloom". Dried plum fruits are called "dried plums" or prunes, although, in many countries, prunes are a distinct type of dried plum having a wrinkled appearance (Li hing mui for instance).
-
-        DESCRIPTION
-
-        Plums are a diverse group of species. The commercially important plum trees are medium-sized, usually pruned to 5–6 metres height. The tree is of medium hardiness. Without pruning, the trees can reach 12 metres in height and spread across 10 metres. They blossom in different months in different parts of the world; for example, in about January in Taiwan and early April in the United Kingdom.
-
-        Fruits are usually of medium size, between 2 and 7 centimetres in diameter, globose to oval. The flesh is firm and juicy. The fruit's peel is smooth, with a natural waxy surface that adheres to the flesh. The plum is a drupe, meaning its fleshy fruit surrounds a single hard seed.
-
-        CULTIVATION
-
-        When it flowers in the early spring, a plum tree will be covered in blossoms, and in a good year approximately 50% of the flowers will be pollinated and become plums. Flowering starts after 80 growing degree days.
-
-        If the weather is too dry, the plums will not develop past a certain stage, but will fall from the tree while still tiny, green buds, and if it is unseasonably wet or if the plums are not harvested as soon as they are ripe, the fruit may develop a fungal condition called brown rot. Brown rot is not toxic, and some affected areas can be cut out of the fruit, but unless the rot is caught immediately, the fruit will no longer be edible. Plum is used as a food plant by the larvae of some Lepidoptera, including November moth, willow beauty and short-cloaked moth.
-
-        The taste of the plum fruit ranges from sweet to tart; the skin itself may be particularly tart. It is juicy and can be eaten fresh or used in jam-making or other recipes. Plum juice can be fermented into plum wine. In central England, a cider-like alcoholic beverage known as plum jerkum is made from plums. Dried, salted plums are used as a snack, sometimes known as saladito or salao.
-
-        Various flavors of dried plum are available at Chinese grocers and specialty stores worldwide. They tend to be much drier than the standard prune. Cream, ginseng, spicy, and salty are among the common varieties. Licorice is generally used to intensify the flavor of these plums and is used to make salty plum drinks and toppings for shaved ice or baobing. Pickled plums are another type of preserve available in Asia and international specialty stores.
-
-        The Japanese variety, called umeboshi, is often used for rice balls, called onigiri or omusubi. The ume, from which umeboshi are made, is more closely related, however, to the apricot than to the plum. In the Balkans, plum is converted into an alcoholic drink named slivovitz (plum brandy) (Serbian: šljivovica).
-
-        A large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică.
+        Сливите съдържат фибри и антиоксиданти. Те могат да помогнат за намаляване на запека и да са от полза за цялостното ви здраве.Сливите са с високо съдържание на полифенолни антиоксиданти, които могат да намалят възпалението и риска от няколко хронични заболявания.
+                
+                Карбонов отпечатък:
+                
+                55 000 тона
+                
+                Това е доста добра стойност на карбоновия отпечатък от препоръчителна за плодове и зеленчуци - 120 000 тона. България пройзвежда много голямо количество от сливи.
         """,
       nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
@@ -108,23 +65,13 @@ let fruitsData: [Fruit] = [
       image: "pomegranate",
       gradientColor: "autumn",
       description: """
-        The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.
-
-        The pomegranate originated in the region extending from Iran to northern India, and has been cultivated since ancient times throughout the Mediterranean region. It was introduced into Spanish America in the late 16th century and into California by Spanish settlers in 1769.
-
-        The fruit is typically in season in the Northern Hemisphere from September to February, and in the Southern Hemisphere from March to May. As intact sarcotestas or juice, pomegranates are used in baking, cooking, juice blends, meal garnishes, smoothies, and alcoholic beverages, such as cocktails and wine.
-
-        DESCRIPTION
-
-        Red-purple in color, the pomegranate fruit husk has two parts: an outer, hard pericarp, and an inner, spongy mesocarp (white "albedo"), which comprises the fruit inner wall where seeds attach. Membranes of the mesocarp are organized as nonsymmetrical chambers that contain seeds inside sarcotestas, which are embedded without attachment to the mesocarp. Containing juice, the sarcotesta is formed as a thin membrane derived from the epidermal cells of the seeds. The number of seeds in a pomegranate can vary from 200 to about 1,400.
-
-        Botanically, the edible fruit is a berry with seeds and pulp produced from the ovary of a single flower. The fruit is intermediate in size between a lemon and a grapefruit, 5–12 cm (2–5 in) in diameter with a rounded shape and thick, reddish husk.
-
-        CULTIVATION
-
-        Pomegranate granatum is grown for its fruit crop, and as ornamental trees and shrubs in parks and gardens. Mature specimens can develop sculptural twisted-bark multiple trunks and a distinctive overall form. Pomegranates are drought-tolerant, and can be grown in dry areas with either a Mediterranean winter rainfall climate or in summer rainfall climates. In wetter areas, they can be prone to root decay from fungal diseases. They can be tolerant of moderate frost, down to about −12 °C (10 °F).
-
-        Insect pests of the pomegranate can include the pomegranate butterfly Virachola isocrates and the leaf-footed bug Leptoglossus zonatus, and fruit flies and ants are attracted to unharvested ripe fruit. Pomegranate grows easily from seed, but is commonly propagated from 25 to 50 cm (10 to 20 in) hardwood cuttings to avoid the genetic variation of seedlings. Air layering is also an option for propagation, but grafting fails.
+        Наровете са с ниско съдържание на калории и мазнини, но с високо съдържание на фибри, витамини и минерали. Ползите включват антиоксиданти, здраве на сърцето, здравето на урината, издръжливост при упражнения и др.Въпреки че са необходими повече изследвания, нарът съдържа съединения, които могат да помогнат за предотвратяване на хронично възпаление, свързано с болест.
+        
+        Карбонов отпечатък:
+        
+        150 000 тона
+        
+        Това е леко висока стойност на карбоновия отпечатък от  препоръчителна за плодове и зеленчуци - 120 000 тона. България не е много голям пройзводител на нарове.
         """,
       nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),

@@ -15,7 +15,7 @@ struct Fruits_VeggiesApp: App {
             if isOnboarding {
                 OnboardingView()
             } else {
-                SeasonsView()
+                ContentView()
             }
             
         }

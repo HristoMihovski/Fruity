@@ -2,7 +2,7 @@
 //  FruitDetailView.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 11.11.23.
+//  Created by Hristo on 11.11.23.
 //
 
 import SwiftUI
@@ -12,7 +12,35 @@ struct FruitDetailView: View {
     var fruit: Fruit
     
     var body: some View {
-        Text(fruit.title)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .center, spacing: 20) {
+                    // Header
+                    
+                    VStack(alignment: .leading, spacing: 20) {
+                        // Title
+                        Text(fruit.title)
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
+                        // Headline
+                        Text(fruit.headline)
+                            .font(.headline)
+                            .multilineTextAlignment(.leading)
+                        // Nutrients
+                        
+                        // Subheadline
+                        Text("Всичко нужно за плода \(fruit.title)".uppercased())
+                            .fontWeight(.bold)
+                        // Description
+                        Text(fruit.description)
+                        // Link
+                        
+                    }// VStack
+                    .padding(.horizontal, 20)
+                    .frame(maxWidth: 640, alignment: .center)
+                }// VStack
+            }// Scroll
+        }// Navigation
     }
 }
 

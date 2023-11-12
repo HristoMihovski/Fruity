@@ -21,10 +21,11 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Fruits")
+            .navigationTitle("Есенни Плодове")
         }
     }
 }
+
 
 #Preview {
     ContentView(fruits: fruitsData)
