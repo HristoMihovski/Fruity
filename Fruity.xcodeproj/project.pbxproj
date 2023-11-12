@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324A1A9D2AFFBB0C00399F4A /* SeasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A1A9C2AFFBB0C00399F4A /* SeasonsView.swift */; };
 		325EEBD32AF9370D002D8DAB /* FruityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEBD22AF9370D002D8DAB /* FruityApp.swift */; };
 		325EEBD52AF9370D002D8DAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEBD42AF9370D002D8DAB /* ContentView.swift */; };
 		325EEBD72AF93710002D8DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325EEBD62AF93710002D8DAB /* Assets.xcassets */; };
@@ -16,6 +17,10 @@
 		325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC032AF9397C002D8DAB /* FruitCardView.swift */; };
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
+		32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */; };
+		32B63D212AFF94DA0010BA6E /* SeasonsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D202AFF94DA0010BA6E /* SeasonsRowView.swift */; };
+		32B63D272AFF98850010BA6E /* SeasonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D262AFF98850010BA6E /* SeasonData.swift */; };
+		32B63D292AFF989C0010BA6E /* SeasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D282AFF989C0010BA6E /* SeasonModel.swift */; };
 		32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C397C72AFD4C5B00E89208 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		324A1A9C2AFFBB0C00399F4A /* SeasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsView.swift; sourceTree = "<group>"; };
 		325EEBCF2AF9370D002D8DAB /* Fruity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		325EEBD22AF9370D002D8DAB /* FruityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityApp.swift; sourceTree = "<group>"; };
 		325EEBD42AF9370D002D8DAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		325EEC032AF9397C002D8DAB /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		32B63D202AFF94DA0010BA6E /* SeasonsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsRowView.swift; sourceTree = "<group>"; };
+		32B63D262AFF98850010BA6E /* SeasonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonData.swift; sourceTree = "<group>"; };
+		32B63D282AFF989C0010BA6E /* SeasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonModel.swift; sourceTree = "<group>"; };
 		32C397C72AFD4C5B00E89208 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				325EEBFD2AF937E4002D8DAB /* FruitData.swift */,
+				32B63D262AFF98850010BA6E /* SeasonData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				325EEC002AF938B5002D8DAB /* FruitModel.swift */,
+				32B63D282AFF989C0010BA6E /* SeasonModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +150,7 @@
 				325EEC032AF9397C002D8DAB /* FruitCardView.swift */,
 				325EEC052AF939A4002D8DAB /* StartButtonView.swift */,
 				32C397C72AFD4C5B00E89208 /* FruitRowView.swift */,
+				32B63D202AFF94DA0010BA6E /* SeasonsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +161,8 @@
 				325EEBD42AF9370D002D8DAB /* ContentView.swift */,
 				325EEBD22AF9370D002D8DAB /* FruityApp.swift */,
 				325EEC082AF93A0F002D8DAB /* OnboardingView.swift */,
+				32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */,
+				324A1A9C2AFFBB0C00399F4A /* SeasonsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -283,13 +298,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				325EEBD52AF9370D002D8DAB /* ContentView.swift in Sources */,
+				324A1A9D2AFFBB0C00399F4A /* SeasonsView.swift in Sources */,
 				325EEBD32AF9370D002D8DAB /* FruityApp.swift in Sources */,
 				32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */,
 				325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */,
+				32B63D212AFF94DA0010BA6E /* SeasonsRowView.swift in Sources */,
+				32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */,
 				325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */,
 				325EEC012AF938B5002D8DAB /* FruitModel.swift in Sources */,
 				325EEBFE2AF937E4002D8DAB /* FruitData.swift in Sources */,
+				32B63D272AFF98850010BA6E /* SeasonData.swift in Sources */,
 				325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */,
+				32B63D292AFF989C0010BA6E /* SeasonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
