@@ -29,10 +29,11 @@ struct FruitDetailView: View {
                         // Nutrients
                         
                         // Subheadline
-                        Text("Всичко нужно за плода \(fruit.title)".uppercased())
+                        Text("Всичко важно за плода \(fruit.title)".uppercased())
                             .fontWeight(.bold)
                         // Description
                         Text(fruit.description)
+                            .multilineTextAlignment(.leading)
                         // Link
                         
                     }// VStack
