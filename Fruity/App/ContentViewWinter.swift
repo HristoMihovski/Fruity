@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct ContentViewWinter: View {
+    
+    var fruits: [Fruit] = fruitsData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(fruits[4...5]) { item in
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
+                        FruitRowView(fruit: item)
+                            .padding(.vertical, 4)
+                    }
+                }
+            }
+            .navigationTitle("Fruits")
+        }
     }
 }
 
 #Preview {
-    ContentViewWinter()
+    ContentViewWinter(fruits: fruitsData)
 }
+

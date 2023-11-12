@@ -15,8 +15,26 @@ struct SeasonsView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(seasons[0...3]) { item in
+                ForEach(seasons[0...0]) { item in
                     NavigationLink(destination: ContentView(fruits: fruitsData)) {
+                        SeasonsRowView(seasons: item)
+                            .padding(.vertical, 4)
+                    }	
+                }
+                ForEach(seasons[1...1]) { item in
+                    NavigationLink(destination: ContentView(fruits: fruitsData)) {
+                        SeasonsRowView(seasons: item)
+                            .padding(.vertical, 4)
+                    }
+                }
+                ForEach(seasons[2...2]) { item in
+                    NavigationLink(destination: ContentView(fruits: fruitsData)) {
+                        SeasonsRowView(seasons: item)
+                            .padding(.vertical, 4)
+                    }
+                }
+                ForEach(seasons[3...3]) { item in
+                    NavigationLink(destination: ContentViewWinter(fruits: fruitsData)) {
                         SeasonsRowView(seasons: item)
                             .padding(.vertical, 4)
                     }

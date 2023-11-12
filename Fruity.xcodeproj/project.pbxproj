@@ -17,6 +17,7 @@
 		325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC032AF9397C002D8DAB /* FruitCardView.swift */; };
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
+		3262F2302B00AE4C00EB80D2 /* ContentViewWinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262F22F2B00AE4C00EB80D2 /* ContentViewWinter.swift */; };
 		32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */; };
 		32B63D212AFF94DA0010BA6E /* SeasonsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D202AFF94DA0010BA6E /* SeasonsRowView.swift */; };
 		32B63D272AFF98850010BA6E /* SeasonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D262AFF98850010BA6E /* SeasonData.swift */; };
@@ -55,6 +56,7 @@
 		325EEC032AF9397C002D8DAB /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3262F22F2B00AE4C00EB80D2 /* ContentViewWinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewWinter.swift; sourceTree = "<group>"; };
 		32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		32B63D202AFF94DA0010BA6E /* SeasonsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsRowView.swift; sourceTree = "<group>"; };
 		32B63D262AFF98850010BA6E /* SeasonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonData.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				325EEC082AF93A0F002D8DAB /* OnboardingView.swift */,
 				32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */,
 				324A1A9C2AFFBB0C00399F4A /* SeasonsView.swift */,
+				3262F22F2B00AE4C00EB80D2 /* ContentViewWinter.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				325EEBD32AF9370D002D8DAB /* FruityApp.swift in Sources */,
 				32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */,
 				325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */,
+				3262F2302B00AE4C00EB80D2 /* ContentViewWinter.swift in Sources */,
 				32B63D212AFF94DA0010BA6E /* SeasonsRowView.swift in Sources */,
 				32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */,
 				325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */,
