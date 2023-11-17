@@ -5,14 +5,44 @@
 //  Created by Violeta.Valcheva on 15.11.23.
 //
 
-import SwiftUI
+import Foundation
+import Combine
 
-struct FruitLocalStorage: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class LocalStorage: ObservableObject {
+    @Published var season: String {
+        didSet {
+            UserDefaults.standard.set(season, forKey: "spring")
+            UserDefaults.standard.set(season, forKey: "summer")
+            UserDefaults.standard.set(season, forKey: "autumn")
+            UserDefaults.standard.set(season, forKey: "winter")
+        }
     }
-}
-
-#Preview {
-    FruitLocalStorage()
+    
+    @Published var spring: String {
+        didSet {
+            UserDefaults.standard.set(spring, forKey: "Spring")
+        }
+    }
+    @Published var summer: String {
+        didSet {
+            UserDefaults.standard.set(summer, forKey: "Summer")
+        }
+    }
+    @Published var autumn: String {
+        didSet {
+            UserDefaults.standard.set(autumn, forKey: "Autumn")
+        }
+    }
+    @Published var winter: String {
+        didSet {
+            UserDefaults.standard.set(winter, forKey: "Winter")
+        }
+    }
+    init() {
+        season = UserDefaults.standard.object(forKey: "season") as? String ?? ""
+        spring = UserDefaults.standard.object(forKey: "fruits") as? String ?? ""
+        summer = UserDefaults.standard.object(forKey: "fruits") as? String ?? ""
+        autumn = UserDefaults.standard.object(forKey: "fruits") as? String ?? ""
+        winter = UserDefaults.standard.object(forKey: "fruits") as? String ?? ""
+    }
 }
