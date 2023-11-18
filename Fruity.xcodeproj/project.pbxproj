@@ -16,6 +16,7 @@
 		325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC032AF9397C002D8DAB /* FruitCardView.swift */; };
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
+		3296FE622B09304F00EAA7EB /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3296FE612B09304F00EAA7EB /* SwiftData.framework */; };
 		32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */; };
 		32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C397C72AFD4C5B00E89208 /* FruitRowView.swift */; };
 		32E135DB2B052E3D004EACB3 /* FruitLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E135DA2B052E3D004EACB3 /* FruitLocalStorage.swift */; };
@@ -51,6 +52,7 @@
 		325EEC032AF9397C002D8DAB /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3296FE612B09304F00EAA7EB /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
 		32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		32C397C72AFD4C5B00E89208 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		32E135DA2B052E3D004EACB3 /* FruitLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitLocalStorage.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3296FE622B09304F00EAA7EB /* SwiftData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 			children = (
 				325EEBD12AF9370D002D8DAB /* Fruity */,
 				325EEBD02AF9370D002D8DAB /* Products */,
+				3296FE602B09304F00EAA7EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +160,14 @@
 				32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3296FE602B09304F00EAA7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3296FE612B09304F00EAA7EB /* SwiftData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,11 +470,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fruity/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = OnboardingView.swift;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,11 +501,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fruity/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = OnboardingView.swift;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
