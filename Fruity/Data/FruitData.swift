@@ -2,7 +2,7 @@
 //  FruitData.swift
 //  Fruits&Veggies
 //
-//  Created by  User on 05.11.2023.
+//  Created by Hristo on 05.11.2023.
 //
 
 import SwiftUI
@@ -15,7 +15,7 @@ let fruitsData: [Fruit] = [
       headline: "Ябълките са един от най-популярните и изключително здравословни плодове с добра причина.",
       image: "apple",
       gradientColor: "autumn",
-      description: """
+      content: """
         Ябълките съдържат ключови хранителни вещества, включително фибри и антиоксиданти. Те могат да предложат ползи за здравето, включително понижаване на нивата на кръвната захар и благоприятно въздействие върху здравето на сърцето.
         
         Карбонов Отпечатък:
@@ -31,7 +31,7 @@ let fruitsData: [Fruit] = [
       headline: "Сладки плодове с форма на камбанка, които са се наслаждавали от древни времена. Могат да се консумират хрупкави или меки.",
       image: "pear",
       gradientColor: "autumn",
-      description: """
+      content: """
         Крушите са особено богати на фолат, витамин С, мед и калий. Те също са добър източник на полифенолни антиоксиданти. Крушите са отличен източник на разтворими и неразтворими фибри, които са от съществено значение за здравето на храносмилането. Тези влакна помагат за поддържане на редовността на червата чрез омекотяване и увеличаване на обема на изпражненията.
                 
         Карбонов отпечатък:
@@ -48,7 +48,7 @@ let fruitsData: [Fruit] = [
       headline: "Сливите са много питателен плод. Отличен източник на витамини, минерали, фибри и антиоксиданти.",
       image: "plum",
       gradientColor: "autumn",
-      description: """
+      content: """
         Сливите съдържат фибри и антиоксиданти. Те могат да помогнат за намаляване на запека и да са от полза за цялостното ви здраве.Сливите са с високо съдържание на полифенолни антиоксиданти, които могат да намалят възпалението и риска от няколко хронични заболявания.
                 
         Карбонов отпечатък:
@@ -64,7 +64,7 @@ let fruitsData: [Fruit] = [
       headline: "Сладки плодове с форма на камбанка, които са се наслаждавали от древни времена. Могат да се консумират хрупкави или меки.",
       image: "pomegranate",
       gradientColor: "autumn",
-      description: """
+      content: """
         Наровете са с ниско съдържание на калории и мазнини, но с високо съдържание на фибри, витамини и минерали. Ползите включват антиоксиданти, здраве на сърцето, здравето на урината, издръжливост при упражнения и др.Въпреки че са необходими повече изследвания, нарът съдържа съединения, които могат да помогнат за предотвратяване на хронично възпаление, свързано с болест.
         
         Карбонов отпечатък:
@@ -80,7 +80,7 @@ let fruitsData: [Fruit] = [
       headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
       image: "blueberry",
       gradientColor: "autumn",
-      description: """
+      content: """
         Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
 
         Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.
@@ -110,7 +110,7 @@ let fruitsData: [Fruit] = [
       headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
       image: "strawberry",
       gradientColor: "autumn",
-      description: """
+      content: """
         The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
 
         The strawberry is not, from a botanical point of view, a berry. Technically, it is an aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's ovaries but from the receptacle that holds the ovaries.[4] Each apparent "seed" (achene) on the outside of the fruit is actually one of the ovaries of the flower, with a seed inside it.
@@ -136,7 +136,7 @@ let fruitsData: [Fruit] = [
       headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
       image: "lemon",
       gradientColor: "autumn",
-      description: """
+      content: """
         The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.
 
         The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. The pulp and rind are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, with a pH of around 2.2, giving it a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie.
@@ -178,7 +178,7 @@ let fruitsData: [Fruit] = [
       headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
       image: "lime",
       gradientColor: "autumn",
-      description: """
+      content: """
       A lime (from French lime, from Arabic līma, from Persian līmū, "lemon")[1] is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.
 
       There are several species of citrus trees whose fruits are called limes, including the Key lime (Citrus aurantiifolia), Persian lime, kaffir lime, and desert lime. Limes are a rich source of vitamin C, are sour, and are often used to accent the flavours of foods and beverages. They are grown year-round.[3] Plants with fruit called "limes" have diverse genetic origins; limes do not form a monophyletic group.
@@ -208,7 +208,7 @@ let fruitsData: [Fruit] = [
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
       image: "gooseberry",
       gradientColor: "autumn",
-      description: """
+      content: """
         The gooseberry (/ˈɡuːsbɛri/ or /ˈɡuːzbɛri/ (American and northern British) or /ˈɡʊzbəri/ (southern British)), with scientific names Ribes uva-crispa (and syn. Ribes grossularia), is a species of Ribes (which also includes the currants).
 
         It is native to Europe, the Caucasus and northern Africa. The species is also sparingly naturalized in scattered locations in North America. Gooseberry bushes produce an edible fruit and are grown on both a commercial and domestic basis. Its native distribution is unclear, since it may have escaped from cultivation and become naturalized. For example, in Britain, some sources consider it to be a native,[4] others to be an introduction.
@@ -232,7 +232,7 @@ let fruitsData: [Fruit] = [
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
       image: "mango",
       gradientColor: "autumn",
-      description: """
+      content: """
         A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae. Mangoes are native to South Asia, from where the "common mango" or "Indian mango", Mangifera indica, has been distributed worldwide to become one of the most widely cultivated fruits in the tropics. Other Mangifera species (e.g. horse mango, Mangifera foetida) are grown on a more localized basis.
 
         Worldwide, there are several hundred cultivars of mango. Depending on the cultivar, mango fruit varies in size, shape, sweetness, skin color, and flesh color which may be pale yellow, gold, or orange. Mango is the national fruit of India and Pakistan, and the national tree of Bangladesh. It is the unofficial national fruit of the Philippines.
@@ -264,7 +264,7 @@ let fruitsData: [Fruit] = [
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
       image: "watermelon",
       gradientColor: "autumn",
-      description: """
+      content: """
         Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.
 
         Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo.
@@ -298,7 +298,7 @@ let fruitsData: [Fruit] = [
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
       image: "cherry",
       gradientColor: "autumn",
-      description: """
+      content: """
         A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.
 
         The name 'cherry' also refers to the cherry tree and its wood, and is sometimes applied to almonds and visually similar flowering trees in the genus Prunus, as in "ornamental cherry" or "cherry blossom". Wild cherry may refer to any of the cherry species growing outside cultivation, although Prunus avium is often referred to specifically by the name "wild cherry" in the British Isles.
@@ -320,7 +320,7 @@ let fruitsData: [Fruit] = [
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
       image: "grapefruit",
       gradientColor: "autumn",
-      description: """
+      content: """
         The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century.[2] When found, it was nicknamed the "forbidden fruit". Frequently, it is misidentified as the very similar parent species, pomelo.
 
         The "grape" part of the name alludes to clusters of fruit on the tree that often appear similar to grape clusters. The interior flesh is segmented and varies in color from white to yellow to pink to red.

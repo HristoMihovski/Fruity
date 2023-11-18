@@ -2,10 +2,11 @@
 //  FruitModel.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 2023-11-06.
+//  Created by Hristo on 2023-11-06.
 //
 
 import SwiftUI
+import SwiftData
 
 // MARK: -FRUITS DATA MODEL
 
@@ -15,6 +16,6 @@ struct Fruit: Identifiable {
     var headline: String
     var image: String
     var gradientColor: String
-    var description: String
+    var content: String
     var nutrition: [String]
 }

@@ -2,10 +2,11 @@
 //  FruityApp.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 2023-11-06.
+//  Created by Hristo on 2023-11-06.
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Fruits_VeggiesApp: App {

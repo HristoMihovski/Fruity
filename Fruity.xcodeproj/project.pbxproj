@@ -123,6 +123,7 @@
 		325EEBFC2AF937A1002D8DAB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				32E135DA2B052E3D004EACB3 /* FruitLocalStorage.swift */,
 				325EEBFD2AF937E4002D8DAB /* FruitData.swift */,
 			);
 			path = Data;
@@ -153,7 +154,6 @@
 				325EEBD22AF9370D002D8DAB /* FruityApp.swift */,
 				325EEC082AF93A0F002D8DAB /* OnboardingView.swift */,
 				32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */,
-				32E135DA2B052E3D004EACB3 /* FruitLocalStorage.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";

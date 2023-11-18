@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct FruitDetailView: View {
     
@@ -32,7 +33,7 @@ struct FruitDetailView: View {
                         Text("Всичко важно за плода \(fruit.title)".uppercased())
                             .fontWeight(.bold)
                         // Description
-                        Text(fruit.description)
+                        Text(fruit.content)
                             .multilineTextAlignment(.leading)
                         // Link
                         

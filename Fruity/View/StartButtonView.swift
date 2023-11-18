@@ -2,7 +2,7 @@
 //  StartButtonView.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 2023-11-06.
+//  Created by VHristo on 2023-11-06.
 //
 
 import SwiftUI

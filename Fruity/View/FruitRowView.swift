@@ -2,7 +2,7 @@
 //  FruitRowView.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 9.11.23.
+//  Created by Hristo on 9.11.23.
 //
 
 import SwiftUI

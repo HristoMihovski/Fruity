@@ -2,7 +2,7 @@
 //  FruitLocalStorage.swift
 //  Fruity
 //
-//  Created by Violeta.Valcheva on 15.11.23.
+//  Created by Hristo on 15.11.23.
 //
 
 import Foundation
