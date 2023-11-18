@@ -7,6 +7,9 @@
 
 import Foundation
 import Combine
+import SwiftData
+
+var fruits: [Fruit] = fruitsData
 
 class LocalStorage: ObservableObject {
     @Published var season: String {
@@ -38,6 +41,7 @@ class LocalStorage: ObservableObject {
             UserDefaults.standard.set(winter, forKey: "Winter")
         }
     }
+
     init() {
         season = UserDefaults.standard.object(forKey: "season") as? String ?? ""
         spring = UserDefaults.standard.object(forKey: "fruits") as? String ?? ""
