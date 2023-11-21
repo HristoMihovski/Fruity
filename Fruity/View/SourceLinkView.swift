@@ -9,10 +9,20 @@ import SwiftUI
 
 struct SourceLinkView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GroupBox() {
+            HStack {
+                Text("Content source: ")
+                Spacer()
+                Link("Healthline", destination: URL(string: "https://www.healthline.com/nutrition")!)
+                Image(systemName: "arrow.up.right.square")
+            }
+            .font(.footnote)
+        }
     }
 }
 
 #Preview {
     SourceLinkView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
