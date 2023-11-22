@@ -17,6 +17,9 @@
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
 		3296FE622B09304F00EAA7EB /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3296FE612B09304F00EAA7EB /* SwiftData.framework */; };
+		32B2F7712B0E880100D32290 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7702B0E880100D32290 /* SettingsLabelView.swift */; };
+		32B2F7732B0E891D00D32290 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7722B0E891D00D32290 /* SettingsRowView.swift */; };
+		32B2F7752B0E8D5300D32290 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7742B0E8D5300D32290 /* SettingsView.swift */; };
 		32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */; };
 		32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C397C72AFD4C5B00E89208 /* FruitRowView.swift */; };
 		32DD89C02B0BC8AC0030A69D /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD89BF2B0BC8AC0030A69D /* FruitHeaderView.swift */; };
@@ -55,6 +58,9 @@
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3296FE612B09304F00EAA7EB /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		32B2F7702B0E880100D32290 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		32B2F7722B0E891D00D32290 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		32B2F7742B0E8D5300D32290 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		32C397C72AFD4C5B00E89208 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		32DD89BF2B0BC8AC0030A69D /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
@@ -153,6 +159,8 @@
 				32C397C72AFD4C5B00E89208 /* FruitRowView.swift */,
 				32DD89BF2B0BC8AC0030A69D /* FruitHeaderView.swift */,
 				32DD89C12B0BE88D0030A69D /* SourceLinkView.swift */,
+				32B2F7702B0E880100D32290 /* SettingsLabelView.swift */,
+				32B2F7722B0E891D00D32290 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 				325EEBD22AF9370D002D8DAB /* FruityApp.swift */,
 				325EEC082AF93A0F002D8DAB /* OnboardingView.swift */,
 				32B63D1E2AFF91A40010BA6E /* FruitDetailView.swift */,
+				32B2F7742B0E8D5300D32290 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -306,12 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2F7752B0E8D5300D32290 /* SettingsView.swift in Sources */,
 				325EEBD52AF9370D002D8DAB /* ContentView.swift in Sources */,
 				325EEBD32AF9370D002D8DAB /* FruityApp.swift in Sources */,
 				32C397C82AFD4C5B00E89208 /* FruitRowView.swift in Sources */,
 				325EEC042AF9397C002D8DAB /* FruitCardView.swift in Sources */,
 				32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */,
 				325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */,
+				32B2F7732B0E891D00D32290 /* SettingsRowView.swift in Sources */,
+				32B2F7712B0E880100D32290 /* SettingsLabelView.swift in Sources */,
 				32E135DB2B052E3D004EACB3 /* FruitLocalStorage.swift in Sources */,
 				32DD89C02B0BC8AC0030A69D /* FruitHeaderView.swift in Sources */,
 				325EEC012AF938B5002D8DAB /* FruitModel.swift in Sources */,
