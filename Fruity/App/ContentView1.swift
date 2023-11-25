@@ -1,32 +1,30 @@
 //
-//  ContentView.swift
+//  ContentView1.swift
 //  Fruity
 //
-//  Created by Hristo on 2023-11-06.
+//  Created by Violeta.Valcheva on 23.11.23.
 //
 
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
-    	
+struct ContentView1: View {
+        
     @State private var isShowingSettings: Bool = false
-    @State private var showMenu: Bool = false
-    @AppStorage("isContent") var isContent: Bool?
     
     var fruits: [Fruit] = fruitsData
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruits[0...3]) { item in
+                ForEach(fruits[0...1]) { item in
                     NavigationLink(destination: FruitDetailView(fruit: item)) {
                         FruitRowView(fruit: item)
                             .padding(.vertical, 4)
                     }
                 }
             }
-            .navigationTitle("Есенни Плодове")
+            .navigationTitle("Зимни Плодове")
             .navigationBarItems(
               trailing:
                 Button(action: {
@@ -39,24 +37,9 @@ struct ContentView: View {
                 }
             )
             .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarItems(
-              leading:
-                Button(action: {
-                  showMenu = true
-                    isContent = false
-                }) {
-                  Image(systemName: "line.horizontal.3")
-                } //: BUTTON
-                .sheet(isPresented: $showMenu) {
-                  SideMenuView()
-                }
-            )
-            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
-
-
 #Preview {
-    ContentView(fruits: fruitsData)
+    ContentView1(fruits: fruitsData)
 }
