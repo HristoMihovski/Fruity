@@ -10,7 +10,7 @@ import SwiftUI
 let seasonData: [Season] = [
     Season(
     title: "Пролет",
-    image: "cloud.sun.fill"
+    image: "leaf.fill"
     ),
     Season(
     title: "Лято",
@@ -18,7 +18,7 @@ let seasonData: [Season] = [
     ),
     Season(
     title: "Есен",
-    image: "leaf.fill"
+    image: "cloud.sun.fill"
     ),
     Season(
     title: "Зима",

@@ -11,11 +11,22 @@ struct SideMenuView: View {
   
     var fruits: [Fruit] = fruitsData
     var seasons: [Season] = seasonData
+    @State private var showMenu: Bool = false
+    @State private var hideMenu: Bool = true
     @AppStorage("isContent") var isContent: Bool?
     
   var body: some View {
       NavigationView {
           VStack {
+                  Button(action: {
+                      hideMenu = true
+                  }) {
+                    Image(systemName: "x.circle")
+                          
+                  } //: BUTTON
+                  .sheet(isPresented: $showMenu) {
+                    SideMenuView()
+                  }
           Text("Choose a season of your choice:")
                 .fontWeight(.bold)
             .font(.title)
@@ -70,7 +81,6 @@ struct SideMenuView: View {
     .edgesIgnoringSafeArea(.bottom)
       }
   }
-
 }
 
 #Preview {
