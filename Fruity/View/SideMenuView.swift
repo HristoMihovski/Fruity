@@ -42,7 +42,7 @@ struct SideMenuView: View {
                 
                 .font(.title)
               ForEach(seasons[1...1]) { item in
-                  NavigationLink(destination: ContentView2()) {
+                  NavigationLink(destination: ContentView3()) {
                       SeasonRowView(seasons: item)
                           .padding(.vertical, 4)
                   }

@@ -27,7 +27,7 @@ struct Fruits_VeggiesApp: App {
             }  else if date > spring && date < summer {
                 ContentView2()
             } else if date > summer && date < autumn {
-               ContentView1()
+               ContentView3()
             } else if date > autumn && date < winter {
                 ContentView()
             } else {
