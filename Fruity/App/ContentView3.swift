@@ -20,7 +20,7 @@ struct ContentView3: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruits[4...7]) { item in
+                ForEach(fruits[5...8]) { item in
                     NavigationLink(destination: FruitDetailView(fruit: item)) {
                         FruitRowView(fruit: item)
                             .padding(.vertical, 4)
