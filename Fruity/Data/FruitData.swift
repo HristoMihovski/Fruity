@@ -48,6 +48,16 @@ import SwiftData
             nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
         ),
         Fruit(
+            title: "Грейпфрут",
+            headline: "Грейпфрутът е цитрусов плод с вкус, който може да варира от горчиво-сладък до кисел.",
+            image: "grapefruit",
+            gradientColor: "autumn",
+            content: """
+        Грейпфрутът е с ниско съдържание на калории и осигурява значително количество фибри, витамини, минерали и антиоксиданти. Грейпфрутът може да е от полза за вашата имунна система. Съдържа няколко витамина и минерала, известни с ролята си в защитата на тялото срещу инфекции.
+        """,
+            nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
+        ),
+        Fruit(
             title: "Слива",
             headline: "Сливите са много питателен плод. Отличен източник на витамини, минерали, фибри и антиоксиданти.",
             image: "plum",
@@ -80,82 +90,71 @@ import SwiftData
             nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
         ),
         Fruit(
-            title: "Blueberry",
-            headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
+            title: "Боровинка",
+            headline: "Боровинките са сладки, питателни и изключително популярни плодове по целия свят.",
             image: "blueberry",
             gradientColor: "autumn",
             content: """
-        Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
-        
-        Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.
-        
-        Blueberries are usually prostrate shrubs that can vary in size from 10 centimeters (3.9 in) to 4 meters (13 ft) in height. In commercial production of blueberries, the species with small, pea-size berries growing on low-level bushes are known as "lowbush blueberries" (synonymous with "wild"), while the species with larger berries growing on taller cultivated bushes are known as "highbush blueberries".
-        
-        Canada is the leading producer of lowbush blueberries, while the United States produces some 40% of the world supply of highbush blueberries.
-        
-        USES
-        
-        Blueberries are sold fresh or are processed as individually quick frozen (IQF) fruit, purée, juice, or dried or infused berries. These may then be used in a variety of consumer goods, such as jellies, jams, blueberry pies, muffins, snack foods, or as an additive to breakfast cereals.
-        
-        Blueberry jam is made from blueberries, sugar, water, and fruit pectin. Blueberry sauce is a sweet sauce prepared using blueberries as a primary ingredient.
-        
-        Blueberry wine is made from the flesh and skin of the berry, which is fermented and then matured; usually the lowbush variety is used.
-        
-        NUTRIENTS
-        
-        Blueberries consist of 14% carbohydrates, 0.7% protein, 0.3% fat and 84% water (table). They contain only negligible amounts of micronutrients, with moderate levels (relative to respective Daily Values) (DV) of the essential dietary mineral manganese, vitamin C, vitamin K and dietary fiber (table).
-        
-        Generally, nutrient contents of blueberries are a low percentage of the DV (table). One serving provides a relatively low caloric value of 57 kcal with a glycemic load of 6.
+        Боровинката е много популярно зрънце. Той е с ниско съдържание на калории, но с високо съдържание на фибри, витамин С и витамин К. Няколко проучвания показват, че боровинките и сокът от боровинки намаляват увреждането на ДНК, което е водещ двигател на стареенето и рака.
         """,
             nutrition: ["240 kJ (57 kcal)","9.96 g","0.33 g","0.74 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Sodium, Zinc"]
         ),
         Fruit(
             title: "Ягода",
-            headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
+            headline: "Широко ценен заради характерния си аромат, червен цвят, сочна текстура и сладост.",
             image: "strawberry",
             gradientColor: "autumn",
             content: """
-        The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
-        
-        The strawberry is not, from a botanical point of view, a berry. Technically, it is an aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's ovaries but from the receptacle that holds the ovaries.[4] Each apparent "seed" (achene) on the outside of the fruit is actually one of the ovaries of the flower, with a seed inside it.
-        
-        CULINARY
-        
-        In addition to being consumed fresh, strawberries can be frozen or made into jam or preserves,[45] as well as dried and used in prepared foods, such as cereal bars. Strawberries and strawberry flavorings are a popular addition to dairy products, such as strawberry milk, strawberry ice cream, strawberry milkshakes/smoothies and strawberry yogurts.
-        
-        In the United Kingdom, "strawberries and cream" is a popular dessert consumed at the Wimbledon tennis tournament.[5] Strawberries and cream is also a staple snack in Mexico, usually available at ice cream parlors. In Sweden, strawberries are a traditional dessert served on St John's Day, also known as Midsummer's Eve. Depending on area, strawberry pie, strawberry rhubarb pie, or strawberry shortcake are also common. In Greece, strawberries may be sprinkled with sugar and then dipped in Metaxa, a brandy, and served as a dessert. In Italy, strawberries are used for various desserts and as a common flavoring for gelato (gelato alla fragola).
-        
-        Suonenjoki in North Savonia, Finland is famous small town for its strawberries, that's why is also known as "the Strawberry Town" or "the Strawberry Capital". Lots of foreign people, mainly from Ukraine and Russia, come to Suonenjoki in summer to work on strawberry farms. That makes Suonenjoki the most international town of Finland at summer. There is a party in Suonenjoki in July called Mansikkakarnevaalit, "Strawberry Carnival".
-        
-        NUTRITION
-        
-        One serving (100 g; see Table) of strawberries contains approximately 33 kilocalories, is an excellent source of vitamin C, a good source of manganese, and provides several other vitamins and dietary minerals in lesser amounts.
-        
-        Strawberries contain a modest amount of essential unsaturated fatty acids in the achene (seed) oil.
+        Въглехидратите в ягодите се състоят главно от фибри и прости захари. Те имат сравнително нисък ГИ и не трябва да причиняват големи скокове в нивата на кръвната захар. Ягодите могат да намалят риска от сърдечни заболявания и рак, както и да помогнат за регулирането на кръвната захар.
         """,
             nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
         ),
         Fruit(
             title: "Череша",
-            headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+            headline: "Черешите са едни от най-обичаните плодове и има защо. Те са вкусни и съдържат витамини, минерали и растителни съединения със силно въздействие върху здравето.",
             image: "cherry",
             gradientColor: "autumn",
             content: """
-        A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.
+        Черешите са добри източници на витамин С, калий, фибри и други хранителни вещества, от които тялото ви се нуждае да функционира оптимално. Всички череши са
+        с високо съдържание антиоксиданти и противовъзпалителни съединения, които могат да намалят хроничните заболявания риск и насърчаване на цялостното здраве.
+        Консумирането на череши, особено тръпчивите черешови продукти, като сок и прах, могат да подобрят спорта производителност и намаляване на причинените от
+        упражнения мускулни увреждания и болезненост.
+        """,
+            nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        ),
+        Fruit(
+            title: "Диня",
+            headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+            image: "watermelon",
+            gradientColor: "autumn",
+            content: """
+        Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.
         
-        The name 'cherry' also refers to the cherry tree and its wood, and is sometimes applied to almonds and visually similar flowering trees in the genus Prunus, as in "ornamental cherry" or "cherry blossom". Wild cherry may refer to any of the cherry species growing outside cultivation, although Prunus avium is often referred to specifically by the name "wild cherry" in the British Isles.
+        Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo.
+        
+        The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It is commonly consumed as a juice or as an ingredient in mixed beverages.
+        
+        DESCRIPTION
+        
+        The watermelon is an annual that has a prostrate or climbing habit. Stems are up to 3 metres (10 feet) long and new growth has yellow or brown hairs. Leaves are 60 to 200 millimetres (2 1⁄4 to 7 3⁄4 inches) long and 40 to 150 mm (1 1⁄2 to 6 in) wide. These usually have three lobes which are themselves lobed or doubly lobed. Plants have both male and female flowers on 40-millimetre-long (1 1⁄2 in) hairy stalks. These are yellow, and greenish on the back.
+        
+        The watermelon is a large annual plant with long, weak, trailing or climbing stems which are five-angled (five-sided) and up to 3 m (10 ft) long. Young growth is densely woolly with yellowish-brown hairs which disappear as the plant ages. The leaves are large, coarse, hairy pinnately-lobed and alternate; they get stiff and rough when old. The plant has branching tendrils.
+        
+        The white to yellow flowers grow singly in the leaf axils and the corolla is white or yellow inside and greenish-yellow on the outside. The flowers are unisexual, with male and female flowers occurring on the same plant (monoecious). The male flowers predominate at the beginning of the season; the female flowers, which develop later, have inferior ovaries. The styles are united into a single column. The large fruit is a kind of modified berry called a pepo with a thick rind (exocarp) and fleshy center (mesocarp and endocarp).
+        
+        Wild plants have fruits up to 20 cm (8 in) in diameter, while cultivated varieties may exceed 60 cm (24 in). The rind of the fruit is mid- to dark green and usually mottled or striped, and the flesh, containing numerous pips spread throughout the inside, can be red or pink (most commonly), orange, yellow, green or white.
         
         CULINARY
         
-        The cultivated forms are of the species sweet cherry (P. avium) to which most cherry cultivars belong, and the sour cherry (P. cerasus), which is used mainly for cooking. Both species originate in Europe and western Asia; they usually do not cross-pollinate. Some other species, although having edible fruit, are not grown extensively for consumption, except in northern regions where the two main species will not grow.
+        Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. On a garden scale, seeds are usually sown in pots under cover and transplanted into well-drained sandy loam with a pH between 5.5 and 7, and medium levels of nitrogen.
         
-        Irrigation, spraying, labor, and their propensity to damage from rain and hail make cherries relatively expensive. Nonetheless, demand is high for the fruit. In commercial production, sour cherries, as well as sweet cherries sometimes, are harvested by using a mechanized "shaker".[8] Hand picking is also widely used for sweet as well as sour cherries to harvest the fruit to avoid damage to both fruit and trees.
+        Major pests of the watermelon include aphids, fruit flies and root-knot nematodes. In conditions of high humidity, the plants are prone to plant diseases such as powdery mildew and mosaic virus.[22] Some varieties often grown in Japan and other parts of the Far East are susceptible to fusarium wilt. Grafting such varieties onto disease-resistant rootstocks offers protection.
         
-        Common rootstocks include Mazzard, Mahaleb, Colt, and Gisela Series, a dwarfing rootstock that produces trees significantly smaller than others, only 8 to 10 feet (2.5 to 3 meters) tall.[9] Sour cherries require no pollenizer, while few sweet varieties are self-fertile.
+        The US Department of Agriculture recommends using at least one beehive per acre (4,000 m2 per hive) for pollination of conventional, seeded varieties for commercial plantings. Seedless hybrids have sterile pollen. This requires planting pollinizer rows of varieties with viable pollen. Since the supply of viable pollen is reduced and pollination is much more critical in producing the seedless variety, the recommended number of hives per acre (pollinator density) increases to three hives per acre (1,300 m2 per hive). Watermelons have a longer growing period than other melons, and can often take 85 days or more from the time of transplanting for the fruit to mature.
         
-        A cherry tree will take three to four years once it is planted in the orchard to produce its first crop of fruit, and seven years to attain full maturity.
+        Lack of pollen is thought to contribute to "hollow heart" which causes the flesh of the watermelon to devleop a large hole, sometimes in an intricate, symmetric shape. Watermelons suffering from hollow heart are safe to consume.
         """,
-            nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+            nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
         ),
         Fruit(
             title: "Лимон",
@@ -284,66 +283,6 @@ import SwiftData
         Generally, ripe mangoes have an orange-yellow or reddish peel and are juicy for eating, while exported fruit are often picked while underripe with green peels. Although producing ethylene while ripening, unripened exported mangoes do not have the same juiciness or flavor as fresh fruit.
         """,
             nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
-        ),
-        Fruit(
-            title: "Диня",
-            headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-            image: "watermelon",
-            gradientColor: "autumn",
-            content: """
-        Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.
-        
-        Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo.
-        
-        The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It is commonly consumed as a juice or as an ingredient in mixed beverages.
-        
-        DESCRIPTION
-        
-        The watermelon is an annual that has a prostrate or climbing habit. Stems are up to 3 metres (10 feet) long and new growth has yellow or brown hairs. Leaves are 60 to 200 millimetres (2 1⁄4 to 7 3⁄4 inches) long and 40 to 150 mm (1 1⁄2 to 6 in) wide. These usually have three lobes which are themselves lobed or doubly lobed. Plants have both male and female flowers on 40-millimetre-long (1 1⁄2 in) hairy stalks. These are yellow, and greenish on the back.
-        
-        The watermelon is a large annual plant with long, weak, trailing or climbing stems which are five-angled (five-sided) and up to 3 m (10 ft) long. Young growth is densely woolly with yellowish-brown hairs which disappear as the plant ages. The leaves are large, coarse, hairy pinnately-lobed and alternate; they get stiff and rough when old. The plant has branching tendrils.
-        
-        The white to yellow flowers grow singly in the leaf axils and the corolla is white or yellow inside and greenish-yellow on the outside. The flowers are unisexual, with male and female flowers occurring on the same plant (monoecious). The male flowers predominate at the beginning of the season; the female flowers, which develop later, have inferior ovaries. The styles are united into a single column. The large fruit is a kind of modified berry called a pepo with a thick rind (exocarp) and fleshy center (mesocarp and endocarp).
-        
-        Wild plants have fruits up to 20 cm (8 in) in diameter, while cultivated varieties may exceed 60 cm (24 in). The rind of the fruit is mid- to dark green and usually mottled or striped, and the flesh, containing numerous pips spread throughout the inside, can be red or pink (most commonly), orange, yellow, green or white.
-        
-        CULINARY
-        
-        Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. On a garden scale, seeds are usually sown in pots under cover and transplanted into well-drained sandy loam with a pH between 5.5 and 7, and medium levels of nitrogen.
-        
-        Major pests of the watermelon include aphids, fruit flies and root-knot nematodes. In conditions of high humidity, the plants are prone to plant diseases such as powdery mildew and mosaic virus.[22] Some varieties often grown in Japan and other parts of the Far East are susceptible to fusarium wilt. Grafting such varieties onto disease-resistant rootstocks offers protection.
-        
-        The US Department of Agriculture recommends using at least one beehive per acre (4,000 m2 per hive) for pollination of conventional, seeded varieties for commercial plantings. Seedless hybrids have sterile pollen. This requires planting pollinizer rows of varieties with viable pollen. Since the supply of viable pollen is reduced and pollination is much more critical in producing the seedless variety, the recommended number of hives per acre (pollinator density) increases to three hives per acre (1,300 m2 per hive). Watermelons have a longer growing period than other melons, and can often take 85 days or more from the time of transplanting for the fruit to mature.
-        
-        Lack of pollen is thought to contribute to "hollow heart" which causes the flesh of the watermelon to devleop a large hole, sometimes in an intricate, symmetric shape. Watermelons suffering from hollow heart are safe to consume.
-        """,
-            nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
-        ),
-        Fruit(
-            title: "Grapefruit",
-            headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-            image: "grapefruit",
-            gradientColor: "autumn",
-            content: """
-        The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century.[2] When found, it was nicknamed the "forbidden fruit". Frequently, it is misidentified as the very similar parent species, pomelo.
-        
-        The "grape" part of the name alludes to clusters of fruit on the tree that often appear similar to grape clusters. The interior flesh is segmented and varies in color from white to yellow to pink to red.
-        
-        DESCRIPTION
-        
-        The evergreen grapefruit trees usually grow to around 5–6 m (16–20 ft) tall, although they may reach 13–15 m (43–49 ft). The leaves are glossy, dark green, long (up to 15 cm (5.9 in)), and thin. It produces 5 cm (2 in) white four-petaled flowers. The fruit is yellow-orange skinned and generally, an oblate spheroid in shape; it ranges in diameter from 10 to 15 cm (3.9 to 5.9 in). The flesh is segmented and acidic, varying in color depending on the cultivars, which include white, pink, and red pulps of varying sweetness (generally, the redder varieties are the sweetest). The 1929 U.S. Ruby Red (of the 'Redblush' variety) has the first grapefruit patent.
-        
-        CULINARY
-        
-        Grapefruit varieties are differentiated by the flesh color of fruit they produce. Common varieties are red, white, and pink pulp colors. Flavors range from highly acidic and somewhat sour to sweet and tart, resulting from composition of sugars (mainly sucrose), organic acids (mainly citric acid), and monoterpenes and sesquiterpenes providing aromas.
-        
-        Grapefruit mercaptan, a sulfur-containing terpene, is one of the aroma compounds influencing taste and odor of grapefruit, compared with other citrus fruits.
-        
-        Raw grapefruit is 90% water, 8% carbohydrates, 1% protein, and negligible fat (table). In a 100-g reference amount, raw grapefruit provides 33 Calories and is a rich source of vitamin C (40% of the Daily Value), with no other micronutrients in significant content.
-        
-        In Costa Rica, especially in Atenas, grapefruit are often cooked to remove their sourness, rendering them as sweets; they are also stuffed with dulce de leche, resulting in a dessert called toronja rellena (stuffed grapefruit). In Haiti, grapefruit is used primarily for its juice (jus de Chadèque), but also is used to make jam (confiture de Chadèque).
-        """,
-            nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
         )
     ]
 //}

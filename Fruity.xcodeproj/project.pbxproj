@@ -23,6 +23,7 @@
 		325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC052AF939A4002D8DAB /* StartButtonView.swift */; };
 		325EEC092AF93A0F002D8DAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EEC082AF93A0F002D8DAB /* OnboardingView.swift */; };
 		3296FE622B09304F00EAA7EB /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3296FE612B09304F00EAA7EB /* SwiftData.framework */; };
+		329846E12B14F49000D96705 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329846E02B14F49000D96705 /* ContentView3.swift */; };
 		32B2F7712B0E880100D32290 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7702B0E880100D32290 /* SettingsLabelView.swift */; };
 		32B2F7732B0E891D00D32290 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7722B0E891D00D32290 /* SettingsRowView.swift */; };
 		32B2F7752B0E8D5300D32290 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2F7742B0E8D5300D32290 /* SettingsView.swift */; };
@@ -70,6 +71,7 @@
 		325EEC052AF939A4002D8DAB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		325EEC082AF93A0F002D8DAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3296FE612B09304F00EAA7EB /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		329846E02B14F49000D96705 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		32B2F7702B0E880100D32290 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		32B2F7722B0E891D00D32290 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		32B2F7742B0E8D5300D32290 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				32B2F7742B0E8D5300D32290 /* SettingsView.swift */,
 				32531ECD2B0FACA80038861D /* ContentView1.swift */,
 				32531ECF2B0FB15A0038861D /* ContentView2.swift */,
+				329846E02B14F49000D96705 /* ContentView3.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				32B63D1F2AFF91A40010BA6E /* FruitDetailView.swift in Sources */,
 				325EEC062AF939A4002D8DAB /* StartButtonView.swift in Sources */,
 				32B2F7732B0E891D00D32290 /* SettingsRowView.swift in Sources */,
+				329846E12B14F49000D96705 /* ContentView3.swift in Sources */,
 				32B2F7712B0E880100D32290 /* SettingsLabelView.swift in Sources */,
 				32E135DB2B052E3D004EACB3 /* FruitLocalStorage.swift in Sources */,
 				323A21142B1247CD00B875F7 /* SeasonData.swift in Sources */,

@@ -13,6 +13,8 @@ import SwiftData
 struct ContentView2: View {
         
     @State private var isShowingSettings: Bool = false
+    @State private var showMenu: Bool = false
+    @AppStorage("isContent") var isContent: Bool?
     
     var fruits: [Fruit] = fruitsData
     
@@ -36,6 +38,19 @@ struct ContentView2: View {
                 } //: BUTTON
                 .sheet(isPresented: $isShowingSettings) {
                   SettingsView()
+                }
+            )
+            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarItems(
+              leading:
+                Button(action: {
+                  showMenu = true
+                    isContent = false
+                }) {
+                  Image(systemName: "line.horizontal.3")
+                } //: BUTTON
+                .sheet(isPresented: $showMenu) {
+                  SideMenuView()
                 }
             )
             .navigationViewStyle(StackNavigationViewStyle())

@@ -23,7 +23,7 @@ struct SettingsView: View {
           
           GroupBox(
             label:
-              SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
+              SettingsLabelView(labelText: "Fruity", labelImage: "info.circle")
           ) {
             Divider().padding(.vertical, 4)
             
@@ -34,7 +34,7 @@ struct SettingsView: View {
                 .frame(width: 80, height: 80)
                 .cornerRadius(9)
               
-              Text("Most fruits are naturally low in fat, sodium, and calories. None have cholesterol. Fruits are sources of many essential nutrients, including potassium, dietary fiber, vitamins, and much more.")
+              Text("Повечето плодове имат естествено ниско съдържание на мазнини, натрий и калории. Никой няма холестерол. Плодовете са източници на много основни хранителни вещества, включително калий, диетични фибри, витамини и много други.")
                 .font(.footnote)
             }
           }
@@ -42,11 +42,11 @@ struct SettingsView: View {
           // MARK: - SECTION 2
           
           GroupBox(
-            label: SettingsLabelView(labelText: "Customization", labelImage: "paintbrush")
+            label: SettingsLabelView(labelText: "Персонализиране", labelImage: "paintbrush")
           ) {
             Divider().padding(.vertical, 4)
             
-            Text("If you wish, you can restart the application by toggle the switch in this box. That way it starts the onboarding process and you will see the welcome screen again.")
+            Text("Ако желаете, можете да рестартирате приложението, като превключите превключвателя в това поле. По този начин той стартира процеса на включване и ще видите отново началния екран.")
               .padding(.vertical, 8)
               .frame(minHeight: 60)
               .layoutPriority(1)
@@ -55,11 +55,11 @@ struct SettingsView: View {
             
             Toggle(isOn: $isOnboarding) {
               if isOnboarding {
-                Text("Restarted".uppercased())
+                Text("Рестатрирано".uppercased())
                   .fontWeight(.bold)
                   .foregroundColor(Color.green)
               } else {
-                Text("Restart".uppercased())
+                Text("Рестартитай".uppercased())
                   .fontWeight(.bold)
                   .foregroundColor(Color.secondary)
               }
@@ -75,17 +75,17 @@ struct SettingsView: View {
           
           GroupBox(
             label:
-            SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+            SettingsLabelView(labelText: "Приложение", labelImage: "apps.iphone")
           ) {
-            SettingsRowView(name: "Developer", content: "Hristo Mihovski")
-            SettingsRowView(name: "Designer", content: "Hristo Mihovski")
-            SettingsRowView(name: "Compatibility", content: "iOS 14")
+            SettingsRowView(name: "Разработчик", content: "Hristo Mihovski")
+            SettingsRowView(name: "Динзайнер", content: "Hristo Mihovski")
+            SettingsRowView(name: "Съвместимост", content: "iOS 14")
             SettingsRowView(name: "SwiftUI", content: "2.0")
-            SettingsRowView(name: "Version", content: "1.0")
+            SettingsRowView(name: "Версия", content: "1.0")
           }
           
         } //: VSTACK
-        .navigationBarTitle(Text("Settings"), displayMode: .large)
+        .navigationBarTitle(Text("Настройки"), displayMode: .large)
         .navigationBarItems(
           trailing:
             Button(action: {

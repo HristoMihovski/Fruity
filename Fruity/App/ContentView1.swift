@@ -11,13 +11,15 @@ import SwiftData
 struct ContentView1: View {
         
     @State private var isShowingSettings: Bool = false
+    @State private var showMenu: Bool = false
+    @AppStorage("isContent") var isContent: Bool?
     
     var fruits: [Fruit] = fruitsData
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruits[0...1]) { item in
+                ForEach(fruits[0...2]) { item in
                     NavigationLink(destination: FruitDetailView(fruit: item)) {
                         FruitRowView(fruit: item)
                             .padding(.vertical, 4)
@@ -37,9 +39,23 @@ struct ContentView1: View {
                 }
             )
             .navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarItems(
+              leading:
+                Button(action: {
+                  showMenu = true
+                    isContent = false
+                }) {
+                  Image(systemName: "line.horizontal.3")
+                } //: BUTTON
+                .sheet(isPresented: $showMenu) {
+                  SideMenuView()
+                }
+            )
+            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
+
 #Preview {
     ContentView1(fruits: fruitsData)
 }

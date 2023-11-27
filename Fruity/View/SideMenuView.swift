@@ -19,7 +19,7 @@ struct SideMenuView: View {
   var body: some View {
       NavigationView {
           VStack {
-          Text("Choose a season of your choice:")
+          Text("Изберете сезон по ваш избор:")
                 .fontWeight(.bold)
             .font(.title)
             .foregroundColor(.black)
