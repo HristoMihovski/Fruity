@@ -12,12 +12,13 @@ import SwiftData
 struct Fruits_VeggiesApp: App {
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     @AppStorage("isContent") var isContent: Bool = true
+    @State private var showMenu: Bool = false
     var body: some Scene {
-//        let date = 328
-//        let spring = 80
-//        let summer = 172
-//        let autumn = 265
-//        let winter = 356
+        let date = 328
+        let spring = 80 // The day when it starts
+        let summer = 172
+        let autumn = 265
+        let winter = 356
         WindowGroup {
             if isOnboarding {
                 OnboardingView()
@@ -25,15 +26,15 @@ struct Fruits_VeggiesApp: App {
                 ContentView()
             }
             
-//            if date > spring && date < summer {
-//                ContentView2()
-//            } else if date > summer && date < autumn {
-//               ContentView1()
-//            } else if date > winter && date < spring {
-//                ContentView1()
-//            } else {
-//                ContentView()
-//            }
+            if date > spring && date < summer {
+                ContentView2()
+            } else if date > summer && date < autumn {
+               ContentView1()
+            } else if date > winter && date < spring {
+                ContentView1()
+            } else {
+                ContentView()
+            }
         }
     }
 }
