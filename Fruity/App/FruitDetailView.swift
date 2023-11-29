@@ -35,6 +35,11 @@ struct FruitDetailView: View {
                         // Description
                         Text(fruit.content)
                             .multilineTextAlignment(.leading)
+                        // CO2 Footprint
+                        Divider()
+                        Text(fruit.co2)
+                            .multilineTextAlignment(.leading)
+                            .fontWeight(.bold)
                         // Link
                         SourceLinkView()
                             .padding(.top, 10)

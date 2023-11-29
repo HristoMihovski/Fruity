@@ -17,5 +17,6 @@ struct Fruit: Identifiable {
     var image: String
     var gradientColor: String
     var content: String
+    var co2: String
     var nutrition: [String]
 }
