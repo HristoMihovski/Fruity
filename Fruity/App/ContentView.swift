@@ -39,7 +39,7 @@ struct ContentView: View {
                 }
             )
             .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarItems(
+/*            .navigationBarItems(
               leading:
                 Button(action: {
                   showMenu = true
@@ -51,7 +51,8 @@ struct ContentView: View {
                   SideMenuView()
                 }
             )
-            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationViewStyle(StackNavigationViewStyle())*/
+            /* The code is commented in case if something breaks with the TabView */
         }
     }
 }

@@ -39,19 +39,20 @@ struct ContentView1: View {
                 }
             )
             .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarItems(
-              leading:
-                Button(action: {
-                  showMenu = true
-                    isContent = false
-                }) {
-                  Image(systemName: "line.horizontal.3")
-                } //: BUTTON
-                .sheet(isPresented: $showMenu) {
-                  SideMenuView()
-                }
-            )
-            .navigationViewStyle(StackNavigationViewStyle())
+/*            .navigationBarItems(
+                          leading:
+                            Button(action: {
+                              showMenu = true
+                                isContent = false
+                            }) {
+                              Image(systemName: "line.horizontal.3")
+                            } //: BUTTON
+                            .sheet(isPresented: $showMenu) {
+                              SideMenuView()
+                            }
+                        )
+                        .navigationViewStyle(StackNavigationViewStyle())*/
+                        /* The code is commented in case if something breaks with the TabView */
         }
     }
 }

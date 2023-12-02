@@ -23,16 +23,21 @@ struct Fruits_VeggiesApp: App {
             if isOnboarding {
                 OnboardingView()
             } else if isOnboarding {
-                ContentView()
-            }  else if date > spring && date < summer {
-                ContentView2()
+                BottomNavView()
+            } else if date > spring && date < summer {
+                BottomNavView()
+                //ContentView2()
             } else if date > summer && date < autumn {
-               ContentView3()
+                BottomNavView()
+                //ContentView3()
             } else if date > autumn && date < winter {
-                ContentView()
+                BottomNavView()
+                //ContentView()
             } else {
-                ContentView1()
+                BottomNavView()
+                //ContentView1()
             }
+            
         }
     }
 }
